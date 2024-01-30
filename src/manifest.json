@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "linkedin-post-time-chrome-extension",
   "description": "Extension Description",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "icons": {
     "16": "images/icon256.png?width=16",
     "24": "images/icon256.png?width=24",
