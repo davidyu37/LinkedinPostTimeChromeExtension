@@ -1,5 +1,5 @@
 {
-  "name": "mv3-parcel-webext-template",
+  "name": "linkedin-post-time-chrome-extension",
   "version": "0.0.0",
   "description": "Chrome Extension boilerplate for manifest v3. With React.",
   "scripts": {
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/onikienko/mv3-parcel-webext-template.git"
+    "url": "git+https://github.com/onikienko/linkedin-post-time-chrome-extension.git"
   },
   "author": "Mykhailo Onikiienko <michael.onikienko@gmail.com> (https://github.com/onikienko)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/onikienko/mv3-parcel-webext-template/issues"
+    "url": "https://github.com/onikienko/linkedin-post-time-chrome-extension/issues"
   },
-  "homepage": "https://github.com/onikienko/mv3-parcel-webext-template#readme",
+  "homepage": "https://github.com/onikienko/linkedin-post-time-chrome-extension#readme",
   "devDependencies": {
     "@parcel/config-webextension": "^2.11.0",
     "@types/chrome": "^0.0.259",

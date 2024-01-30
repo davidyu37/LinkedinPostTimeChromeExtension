@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "mv3-parcel-webext-template",
+  "name": "linkedin-post-time-chrome-extension",
   "description": "Extension Description",
   "version": "0.0.0",
   "icons": {
@@ -19,5 +19,15 @@
   "action": {
     "default_popup": "popup/index.html"
   },
-  "permissions": []
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.linkedin.com/*"
+      ],
+      "run_at": "document_end",
+      "js": [
+        "content/index.js"
+      ]
+    }
+  ]
 }
