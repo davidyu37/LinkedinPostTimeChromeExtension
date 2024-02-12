@@ -23,7 +23,7 @@ function insertTextIntoContainer(container) {
     if (targetSubDescription && !targetSubDescription.hasAttribute("custom-timestamp-appended")) {
         // Create a new span element
         const newSpan = document.createElement("span");
-        if (currentUrl.includes("/recent-activity/all/")) {
+        if (currentUrl.includes("/recent-activity/all/") || currentUrl.includes("/feed")) {
             const dataUrn = getDataUrnOfContainer(container);
             if (dataUrn) {
                 newSpan.textContent = ` ${getDate(dataUrn)}`; // Set the text for the new span

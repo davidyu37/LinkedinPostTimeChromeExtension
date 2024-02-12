@@ -47,6 +47,7 @@ function unixTimestampToHumanDate(timestamp) {
 export function getDate(url) {
     // extract the unix timestamp from the post's url
     let postId = getPostId(url);
+    if (!postId) return "";
     let unixTimestamp = extractUnixTimestamp(postId);
     // convert the unix timestamp to a human-readable date string
     let humanDateFormat = unixTimestampToHumanDate(unixTimestamp);
