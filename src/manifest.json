@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "linkedin-post-time-chrome-extension",
+  "name": "Post Time for Linkedin",
   "description": "Extension Description",
   "version": "0.0.1",
   "icons": {
