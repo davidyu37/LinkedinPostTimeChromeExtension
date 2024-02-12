@@ -1,6 +1,6 @@
 {
   "name": "linkedin-post-time-chrome-extension",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Chrome Extension boilerplate for manifest v3. With React.",
   "scripts": {
     "start": "parcel watch src/manifest.json --host localhost",

@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Post Time for Linkedin",
   "description": "Extension Description",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "icons": {
     "16": "images/icon256.png?width=16",
     "24": "images/icon256.png?width=24",
