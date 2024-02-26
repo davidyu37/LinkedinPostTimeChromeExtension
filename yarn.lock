@@ -1142,10 +1142,10 @@
   resolved "https://registry.yarnpkg.com/@trysound/sax/-/sax-0.2.0.tgz#cccaab758af56761eb7bf37af6f03f326dd798ad"
   integrity sha512-L7z9BgrNEcYyUYtF+HaEfiS5ebkh9jXqbszz7pC0hRBPaatV0XjSD3+eHrpqFemQfgwiFF0QPIarnIihIDn7OA==
 
-"@types/chrome@^0.0.259":
-  version "0.0.259"
-  resolved "https://registry.yarnpkg.com/@types/chrome/-/chrome-0.0.259.tgz#5e55941b3f4067d088c0ad81c094733128db0f0a"
-  integrity sha512-WP1HsLqKgoUwR/4dYiTfmOSUG5B05+xrPLbqboO15nuaUC+aBYxwB9ixVyLPYY9D+vocJK9rzH5g1lpqVrJqhg==
+"@types/chrome@^0.0.261":
+  version "0.0.261"
+  resolved "https://registry.yarnpkg.com/@types/chrome/-/chrome-0.0.261.tgz#4b8541e9a33fa8e101e03fff423011740d11503e"
+  integrity sha512-u8Nhu54/qP32fM2Ni5sdln6Evvzy2V9TJjWnFrab2GcKDpcBpJ3ZtsBUqCwaoTxada+k5Vj8Zn5g8AsdbRDqKg==
   dependencies:
     "@types/filesystem" "*"
     "@types/har-format" "*"
@@ -4657,6 +4657,7 @@ stop-iteration-iterator@^1.0.0:
     internal-slot "^1.0.4"
 
 "string-width-cjs@npm:string-width@^4.2.0", string-width@^4.1.0, string-width@^4.2.3:
+  name string-width-cjs
   version "4.2.3"
   resolved "https://registry.yarnpkg.com/string-width/-/string-width-4.2.3.tgz#269c7117d27b05ad2e536830a8ec895ef9c6d010"
   integrity sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==
