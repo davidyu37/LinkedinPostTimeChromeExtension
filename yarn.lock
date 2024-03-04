@@ -2393,13 +2393,6 @@ fastq@^1.6.0:
   dependencies:
     reusify "^1.0.4"
 
-fd-slicer@~1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/fd-slicer/-/fd-slicer-1.1.0.tgz#25c7c89cb1f9077f8891bbe61d8f390eae256f1e"
-  integrity sha512-cE1qsB/VwyQozZ+q1dGxR8LBYNZeofhEdUNGSMbQD3Gw2lAzX9Zb3uIU6Ebc/Fmyjo9AWWfnn0AUCHqtevs/8g==
-  dependencies:
-    pend "~1.2.0"
-
 fetch-blob@^3.1.2, fetch-blob@^3.1.4:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/fetch-blob/-/fetch-blob-3.2.0.tgz#f09b8d4bbd45adc6f0c20b7e787e793e309dcce9"
@@ -4657,6 +4650,7 @@ stop-iteration-iterator@^1.0.0:
     internal-slot "^1.0.4"
 
 "string-width-cjs@npm:string-width@^4.2.0", string-width@^4.1.0, string-width@^4.2.3:
+  name string-width-cjs
   version "4.2.3"
   resolved "https://registry.yarnpkg.com/string-width/-/string-width-4.2.3.tgz#269c7117d27b05ad2e536830a8ec895ef9c6d010"
   integrity sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==
@@ -5185,13 +5179,13 @@ yargs-parser@21.1.1:
   resolved "https://registry.yarnpkg.com/yargs-parser/-/yargs-parser-21.1.1.tgz#9096bceebf990d21bb31fa9516e0ede294a77d35"
   integrity sha512-tVpsJW7DdjecAiFpbIB1e3qxIQsE6NoPc5/eTdrbbIC4h0LVsWhnoa3g+m2HclBIujHzsxZ4VJVA+GUuc2/LBw==
 
-yauzl@^2.10.0:
-  version "2.10.0"
-  resolved "https://registry.yarnpkg.com/yauzl/-/yauzl-2.10.0.tgz#c7eb17c93e112cb1086fa6d8e51fb0667b79a5f9"
-  integrity sha512-p4a9I6X6nu6IhoGmBqAcbJy1mlC4j27vEPZX9F4L4/vZT3Lyq1VkFHw/V/PUcB9Buo+DG3iHkT0x3Qya58zc3g==
+yauzl@^3.1.1:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/yauzl/-/yauzl-3.1.1.tgz#d85503cc34933c0bcb3646ee2b97afedbebe32e7"
+  integrity sha512-MPxA7oN5cvGV0wzfkeHKF2/+Q4TkMpHSWGRy/96I4Cozljmx0ph91+Muxh6HegEtDC4GftJ8qYDE51vghFiEYA==
   dependencies:
     buffer-crc32 "~0.2.3"
-    fd-slicer "~1.1.0"
+    pend "~1.2.0"
 
 yazl@^2.5.1:
   version "2.5.1"
@@ -5205,10 +5199,10 @@ yocto-queue@^0.1.0:
   resolved "https://registry.yarnpkg.com/yocto-queue/-/yocto-queue-0.1.0.tgz#0294eb3dee05028d31ee1a5fa2c556a6aaf10a1b"
   integrity sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==
 
-zip-lib@^0.7.3:
-  version "0.7.3"
-  resolved "https://registry.yarnpkg.com/zip-lib/-/zip-lib-0.7.3.tgz#0f0c425569a79f7ef3641208bab53244ff23ff60"
-  integrity sha512-hp40KYzTJvoaCRr2t6hztlPnVmHYqDUDiIn0hlfAFwVBs3/jwkLy8aZ7NVGHECeWH2Tv8WPwWyR6QuWYarIjJQ==
+zip-lib@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/zip-lib/-/zip-lib-1.0.1.tgz#e2ed06e88552ee5e520bf019ddc24d29ada9ff96"
+  integrity sha512-Kcm6c8v9yHc5Uov13jg0GGbSL6L4f4t6ShnNu0mz5SvPNWNw/FNIUhNqcupUINAAfrLRiH1g7kZ98PMPvCFeqw==
   dependencies:
-    yauzl "^2.10.0"
+    yauzl "^3.1.1"
     yazl "^2.5.1"
